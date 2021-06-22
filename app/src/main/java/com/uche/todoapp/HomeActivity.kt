@@ -12,8 +12,9 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        intent
 
         usernameDisplay = findViewById(R.id.usernameDisplay)
-        usernameDisplay.text = "THE FUTURE IS HERE"
+        usernameDisplay.text = intent.getStringExtra("username")
     }
 }
