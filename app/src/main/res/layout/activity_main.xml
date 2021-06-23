@@ -38,30 +38,19 @@
         android:hint="Enter Password"
         />
 
-    <EditText
-        android:id="@+id/emailInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Enter Email"/>
 
-    <TextView
-        android:id="@+id/smallText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="If you don't have an account SIGN UP"
-        android:gravity="center"/>
 
     <Button
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity=""
-        android:text="Sign in" />
+        android:text="Submit" />
+
+
 
     <Button
-        android:id="@+id/SignUp_button"
+        android:id="@+id/signUp_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up" />
